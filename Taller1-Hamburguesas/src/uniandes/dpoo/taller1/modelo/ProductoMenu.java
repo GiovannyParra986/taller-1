@@ -1,4 +1,6 @@
-package uniandes.dpoo.taller1.consola;
+package uniandes.dpoo.taller1.modelo;
+
+import uniandes.dpoo.taller1.procesamiento.Producto;
 
 public class ProductoMenu implements Producto
 {
@@ -12,19 +14,18 @@ public class ProductoMenu implements Producto
 		precioBase=pPrecio;
 	}
 
-	@Override
 	public int getPrecio() {
 		// TODO Auto-generated method stub
 		return precioBase;
 	}
 
-	@Override
+	
 	public String getNombre() {
 		// TODO Auto-generated method stub
 		return nombre;
 	}
 
-	@Override
+
 	public String generarTextoFactura() {
 		// TODO Auto-generated method stub
 		return nombre+""+precioBase;

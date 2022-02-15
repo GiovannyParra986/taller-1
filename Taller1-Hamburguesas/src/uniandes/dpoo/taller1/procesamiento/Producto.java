@@ -1,4 +1,4 @@
-package uniandes.dpoo.taller1.consola;
+package uniandes.dpoo.taller1.procesamiento;
 
 public interface Producto 
 {

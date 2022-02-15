@@ -1,6 +1,8 @@
-package uniandes.dpoo.taller1.consola;
+package uniandes.dpoo.taller1.modelo;
 
 import java.util.ArrayList;
+
+import uniandes.dpoo.taller1.procesamiento.Producto;
 
 public class Combo implements Producto
 {
